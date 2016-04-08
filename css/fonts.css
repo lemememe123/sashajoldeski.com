@@ -1,0 +1,93 @@
+/* Source code Pro */
+h1, h2, h3, h3, h4, .ireg { /* Only these headers */
+    font-family: 'Source Code Pro', Courier New, Lucida Console;
+    text-transform: lowercase;
+}
+p a {
+    color: #d33682;
+    text-decoration: none;
+}
+h1 span, h2 span, h3 span, h4 span, p span,  { /* highlighted text */
+    background-color: #6c71c4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1 code, h2 code, h3 code { /* headers */
+    background-color: #eee8d5;
+    color: #657b83;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Source Code Pro', Courier New, Lucida Console;
+}
+#navigation-bar code { /* Navigation */
+    background-color: #16414d;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Source Code Pro', Courier New, Lucida Console;
+}
+
+h1 small {
+    margin-left: 25px;
+    color: #268bd2;
+}
+h2 small {
+    margin-left: 20px;
+    color: #268bd2;
+}
+h3 small {
+    margin-left: 15px;
+    color: #268bd2;
+}
+h4 small {
+    margin-left: 10px;
+    color: #268bd2;
+}
+h5 small {
+    margin-left: 5px;
+    color: #268bd2;
+}
+h6 small {
+    margin-left: 2.5px;
+    color: #268bd2;
+}
+ul {
+    font-family: 'Source Code Pro', Courier New, Lucida Console;
+    text-transform: lowercase; 
+}
+
+
+/* Roboto font family */ /* Classes: condensed + regular */
+body, p, span {
+    font-family: 'Source Sans Pro', roboto, sans-serif;
+    color: #839496;
+}
+small{color:rgba(0, 0, 0, 0.54)}
+.condensed{font-family:Roboto Condensed, roboto, sans-serif;}
+.regular{font-family:Roboto, sans-serif;}
+/* Defenition of these classes: thin, medium, black, light. See Google Typecast*/
+.regular.thin {font-weight:100;}
+.regular.medium{font-weight:500;}
+.regular.black{font-weight:900;}
+.regular.light,.condensed.light{font-weight:300;}
+.regular.normal,.condensed.normal{font-weight:400;}
+.regular.bold,.condensed.bold{font-weight:700;}
+
+/*
+Replaced
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 32dp;
+}
+
+upper {text-transform: uppercase}
+
+*/
+
+
+
+
+
